@@ -1,0 +1,39 @@
+.stats {
+  margin-top: 58px;
+  background: url('/img/backgrownd1.jpg') no-repeat top center;
+}
+
+.statItems {
+  .row-flex();
+  justify-content: center;
+  text-align: center;
+  min-height: 620px;
+  margin: 0 -15px;
+  align-items: center;
+}
+
+.statItem{
+  .col();
+  .size(3);
+
+  &__icon {
+    border-radius: 50%;
+    background: #1d9d73;
+    width: 119px;
+    height: 119px;
+    margin: 17px auto;
+    line-height: 150px;
+  }
+
+  &__number {
+    color: #1d9d73;
+    font-size: 45px;
+    margin: 15px 0;
+  }
+
+  &__text {
+    color: #333333;
+    font-size: 20px;
+  }
+}
+
